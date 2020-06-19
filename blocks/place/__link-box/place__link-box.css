@@ -1,0 +1,9 @@
+.place__link-box {
+  align-self: end;
+}
+
+@media screen and (max-width: 720px) {
+  .place__link-box {
+    display: none;
+  }
+}

@@ -1,12 +1,15 @@
 .header__lang-link {
   font-size: 24px;
   font-weight: normal;
-  line-height: 1.7;
+  line-height: 1.5;
   padding-left: 18px;
-  color:#FFFFFF;
+  color:#fff;
   text-decoration: none;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
+@media screen and (max-width: 720px) {
+  .header__lang-link {
+    font-size: 18px;
+    font-weight: 1.33;
+  }
 }

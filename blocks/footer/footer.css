@@ -1,0 +1,15 @@
+@import url(./__menu/footer__menu.css);
+@import url(./__link/footer__link.css);
+@import url(./__author/footer__author.css);
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+  }
+}

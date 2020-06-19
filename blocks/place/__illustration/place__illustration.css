@@ -1,0 +1,12 @@
+.place__illustration {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 720px) {
+  .place__illustration {
+    width: calc(100% + 32px);
+    position: relative;
+    left: -16px;
+  }
+}

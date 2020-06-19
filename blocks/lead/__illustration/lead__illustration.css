@@ -1,0 +1,19 @@
+.lead__illustration {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 984px) {
+  .lead__illustration {
+    max-width: calc(100% + 48px);
+    position: relative;
+    left: -24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__illustration {
+    max-width: calc(100% + 32px);
+    position: relative;
+    left: -16px;
+  }
+}
