@@ -1,6 +1,7 @@
 .footer__menu {
   display: flex;
   padding: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 720px) {
