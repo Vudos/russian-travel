@@ -15,4 +15,4 @@
 2. Трансформация ссылок.
 3. Отзывчивая верстка.
 
-https://github.com/Vudos/russian-travel.git
+https://vudos.github.io/russian-travel/
